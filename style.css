@@ -1,0 +1,17 @@
+@font-face {
+  font-family: Helvetica;
+  src: url(/fonts/HelveticaNeue.ttf) format(TrueType);
+}
+
+@font-face {
+  font-family: CoreMellow;
+  src: url(/fonts/Core_Mellow_65_Bold.ttf),
+       url(/fonts/Core_Mellow_65_Bold.woff),
+       url(/fonts/Core_Mellow_65_Bold.woff2) format(Web Open Font Format 2),
+       url(/fonts/Core_Mellow_65_Bold.otf) format(OpenType);
+}
+
+
+body {
+    font-family: CoreMellow, serif;
+}
